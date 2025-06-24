@@ -1,2 +1,4 @@
 # wdd130-bowes
-Charlie Bowes Website for the wdd130 class
+Client Website for the wdd130 class
+
+This will be a webpage for Charlie Bowes
