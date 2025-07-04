@@ -1,3 +1,117 @@
+/* Fonts */
+    /* Playfair Display*/
+@font-face {
+    font-family: 'PF Display-black';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-blacki';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-bold';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-boldi';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-extrabold';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-extraboldi';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-i';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-medium';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-mediumi';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-semibold';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-semiboldi';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+}
+
+    /* Lato */
+@font-face {
+    font-family: 'Lato-black';
+    src: url('../fonts/Lato/Lato-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-blacki';
+    src: url('../fonts/Lato/Lato-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-bold';
+    src: url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-boldi';
+    src: url('../fonts/Lato/Lato-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-i';
+    src: url('../fonts/Lato/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-light';
+    src: url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-lighti';
+    src: url('../fonts/Lato/Lato-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-thin';
+    src: url('../fonts/Lato/Lato-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-thini';
+    src: url('../fonts/Lato/Lato-ThinItalic.ttf') format('truetype');
+}
+
+/* CSS */
 * {
     margin-top: 0;
 }
@@ -38,6 +152,11 @@ h2 {
 
 body {
     margin: 0;
+    font-family: 'PF Display-i', serif, arial;
+}
+
+a, p {
+    font-family: 'Lato-i', serif, arial;
 }
 
 nav {
