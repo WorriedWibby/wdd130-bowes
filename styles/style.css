@@ -146,6 +146,11 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+    margin: 20px;
+    font-size: 1.5em;
+}
+
 .spaced_heading {
     margin-top: 200px;
 }
@@ -193,6 +198,7 @@ a {
 }
 
 .button_second a {
+    padding: 20px;
     background-color: #D6D6B1;
     color: #494331;
 }
@@ -213,6 +219,17 @@ a {
 
 #daily_recipe {
     width: 50%;
-    height: 400px;
+    height: 500px;
     margin: 0 auto 200px auto;
+    background: linear-gradient(rgba( 0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url(../images/Spicy-Noodles-skillet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#daily_recipe ul {
+    padding: 0 0 50px 0;
+    list-style: none;
 }
